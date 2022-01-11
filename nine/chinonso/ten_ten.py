@@ -1,6 +1,6 @@
 count1 = 0
 count2 = 0
-for k in range(3):
+for k in range(10):
     player1 = input('Player 1, Enter your choice, right and left :')
     player2 = input('Player 2, Enter your choice, right and left :')
     if player1 == player2 :
