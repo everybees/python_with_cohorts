@@ -1,5 +1,2 @@
-def main():
-    print("Welcome To Semicolon")
-
-if __name__ == "__main__":
-    main()
+name = Oluwadamilola
+print("Hi, my name is ", name)
