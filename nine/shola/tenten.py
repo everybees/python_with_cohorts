@@ -1,5 +1,4 @@
-# first_player =
-# second_player = 0
+
 first_total = 0
 second_total = 0
 
