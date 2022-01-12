@@ -6,8 +6,8 @@ user1=0
 user2=0
 
 for i in range(10):
-    user_input_1 = input("Enter r for rock, p for paper, s for scissors: ")
-    user_input_2 = input("Enter r for rock, p for paper, s for scissors:")
+    user_input_1 = input("Enter either r for rock, p for paper, s for scissors: ")
+    user_input_2 = input("Enter either r for rock, p for paper, s for scissors:")
 
 
     if(user_input_1 == rock and user_input_2 == paper):
