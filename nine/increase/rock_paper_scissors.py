@@ -1,3 +1,5 @@
+#A game of rock, paper and scissors
+
 rock = "r"
 paper = "p"
 scissors = "s"
