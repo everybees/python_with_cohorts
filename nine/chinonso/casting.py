@@ -33,4 +33,3 @@ for k in range(0,len(last_name)):
 #         print(full_name[i])
 #     else:
 #         print(full_name[i], end="-")
-
