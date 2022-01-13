@@ -35,5 +35,5 @@ for i in range(10):
         print("user1 win")
         user1score += 1
 
-print('user1score',user1score)
-print('user2score',user2score)
+        print('user1score',user1score)
+        print('user2score',user2score)
