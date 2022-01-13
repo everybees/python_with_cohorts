@@ -4,6 +4,8 @@ __pycache__/
 .idea/
 .gitignore
 *$py.class
+.idea/
+.gitignore
 
 # C extensions
 *.so
