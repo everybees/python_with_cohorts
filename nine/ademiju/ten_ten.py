@@ -21,14 +21,14 @@ for count in range (10):
         print("Player One Wins")
         player_one_score+=1
 
-print("Player one score = \n",player_one_score,"Playere two score =",player_two_score)
+print("Player One's score = ",player_one_score,"\nPlayer Two's score = ",player_two_score)
 
 if(player_one_score > player_two_score):
     print("Player One Wins the Game")
 elif(player_two_score > player_one_score):
     print("Player Two Wins the Game")
 
-else:print("Its a DRAW")
+else:print("It's a DRAW")
 
 
       

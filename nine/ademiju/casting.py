@@ -16,5 +16,3 @@ for i in range(0,len(last_name)):
     else:
         print(last_name[i].upper(), end="-") 
 
-
-    
