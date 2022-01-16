@@ -6,7 +6,10 @@ __pycache__/
 *$py.class
 .idea/
 .gitignore
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 # C extensions
 *.so
 
