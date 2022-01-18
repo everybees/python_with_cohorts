@@ -10,6 +10,6 @@ while gallon != -1:
     total_gallons += gallon
     total_miles += miles
     total_mile_per_gallon = total_miles/total_gallons
-    print("The miles/gallon for this tank was ", miles_per_gallon)
+    print("The miles/gallon for this tank was ",f'{ miles_per_gallon:>.2f}')
     gallon = float(input("Enter the gallon used(-1 to exit): "))
-print("The overall average miles/gallon was ", total_mile_per_gallon)
+print("The overall average miles/gallon was ",f' {total_mile_per_gallon:>.2f}')
