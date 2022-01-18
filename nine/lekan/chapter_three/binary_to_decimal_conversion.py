@@ -6,7 +6,8 @@ base = 1
 
 temp = num
 
-while temp > 0:
+temp_is_not_zero = temp > 0
+while temp_is_not_zero:
     last_digit = temp % 10
     temp = temp // 10
     decimal_value += last_digit * base
