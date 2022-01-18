@@ -5,4 +5,4 @@ letters = "pbil"
 # Examples - __iter_() and __next__()
 
 for i in range(10):
-    print(*i)
+    print(i)

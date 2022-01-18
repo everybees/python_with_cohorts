@@ -8,4 +8,5 @@ print("x =")
 print((x + y), "=", (y + x))
 
 # 2.2
-rating = input("Enter an integer rating between 1 - 10: ")
+rating = input("Enter an integer rating between 1 - 10: ") #nothing
+
