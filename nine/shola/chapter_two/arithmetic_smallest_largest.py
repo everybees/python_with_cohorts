@@ -1,5 +1,5 @@
 # (Arithmetic, Smallest and Largest) Write a script that inputs three integers from
-# the user. Display the sum, average, product, smallest and largest of the numbers. Note that
+# the user. Display the sum_total, average, product, smallest and largest of the numbers. Note that
 # each of these is a reduction in functional-style programming.
 
 num1 = int(input("Enter first number: "))
