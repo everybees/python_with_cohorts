@@ -21,4 +21,4 @@ number_one_is_lesser_than_or_equal_to_number_two = number1 <= number2
 if number_one_is_lesser_than_or_equal_to_number_two:
     print(number1, ' is less than or equals to ', number2)
 else:
-    print(number1, ' is greater than or equals to ',number2)
+    print(number1, ' is greater than or equals to ', number2)
