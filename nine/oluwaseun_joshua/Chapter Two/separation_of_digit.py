@@ -22,4 +22,4 @@ fifth_number=(digit_number % 10)/1
 fifth_number=int(fifth_number)
 # print("The value of the fifthnumber is: ",fifth_number)
 
-print("this are the number ",first_number,"\t",second_number ,"\t",third_number,"\t",four_number,"\t",fifth_number)
+print("this are the number ",first_number,"\t",second_number,"\t",third_number,"\t",four_number,"\t",fifth_number)

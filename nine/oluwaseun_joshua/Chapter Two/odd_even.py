@@ -6,7 +6,7 @@ if(integer_value % 2 ==0):
     print("The number is an even number:  ")
 
 else:
-    print("The number is not an even number:  ")
+    print("The number is not an even number ")
 
 
 if(integer_value % 3 != 0):
