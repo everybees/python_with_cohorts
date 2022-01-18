@@ -1,11 +1,10 @@
 user_input = int(input('Enter A Number: '))
+temp = user_input
 product = 1
 
-if user_input <= 1:
-    product = 1
-for i in range(user_input):
-    product *= user_input
-    user_input -= 1
+for i in range(temp):
+    product *= temp
+    temp -= 1
 
-print("The factorial is ", product)
+print('The factorial of ', user_input, 'is ', product)
 
