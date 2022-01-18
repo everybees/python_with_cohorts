@@ -6,5 +6,5 @@ for i in range(temp):
     product *= temp
     temp -= 1
 
-print('The factorial of ', user_input, 'is ', product)
+print('The factorial of ', user_input, ' is ', product)
 
