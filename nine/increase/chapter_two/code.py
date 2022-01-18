@@ -12,3 +12,9 @@ print('x =', x)
 print('Value of', x, '+', x, 'is', (x + x))
 print('x =')
 print((x + y), '=', (y + x))
+
+# Answer
+# x = 2
+# Value of 2 + 2 is 4
+# x =
+# 5 = 5
