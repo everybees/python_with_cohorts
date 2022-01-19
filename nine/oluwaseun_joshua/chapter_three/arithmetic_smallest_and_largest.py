@@ -6,7 +6,6 @@ average=0
 total=0
 minimum= sys.maxsize
 
-user_input=0
 total_integer=0
 
 
