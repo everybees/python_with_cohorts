@@ -1,3 +1,6 @@
+# Factorials!!
+
+
 number = int(input('Enter a number: '))
 factorial = 1
 
