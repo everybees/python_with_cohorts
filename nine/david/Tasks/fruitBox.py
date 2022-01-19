@@ -23,6 +23,7 @@ row = 2
 while row >= 0:
     col = 2
     while col >= 0:
+        counter += 1
         print(f'{counter} \t   {variable[col][row]}  \t   {[col]} {[row]}')
         # print(variable[col][row], col, row)
         col -= 1
