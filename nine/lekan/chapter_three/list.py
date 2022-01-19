@@ -30,4 +30,6 @@ for column in range(2, -1, -1):
         print(row, column, end="       ", sep='-')
         print(variable[row][column])
 
+name  = "Fola"
+
     
