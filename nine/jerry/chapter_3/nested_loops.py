@@ -7,35 +7,32 @@
 
 for i in range(1, 11):
     for j in range(i):
-        print("*", end=" ")
+        print("*", end="")
     print("\n")
 
 
-        # for(int a = 1; a <= 10; a++){
-        #     for(int b = 10; b >= a; b--){
-        #         System.out.print(symbol);
-        #     }
-        #     System.out.println();
-        # }
-        # System.out.println();
-        #
-        # for(int p = 1; p <= 10; p++){
-        #     for(int q = 2; q <= p; q++) {
-        #         System.out.print(" ");
-        #     }
-        #     for(int r = p; r <= 10; r++){
-        #         System.out.print(symbol);
-        #     }
-        #     System.out.println();
-        # }
-        # System.out.println();
-        #
-        # for(int x = 1; x <= 10; x++){
-        #     for(int y = x; y < 10; y++){
-        #         System.out.print(" ");
-        #     }
-        #     for (int z = 1; z <= x; z++){
-        #         System.out.print(symbol);
-        #     }
-        #     System.out.println();
-        # }
+count = 11
+while count >= 1:
+    for k in range(1, count+1):
+        if count < 11:
+            print("*", end="")
+    print("\n")
+    count -= 1
+
+
+for p in range (1, 11):
+    for q in range(1, p):
+        print("", end=" ")
+    for r in range(p, 11):
+        print("*", end="")
+
+    print("\n")
+
+for x in range(1, 11):
+    for y in range(x, 10):
+        print("", end=" ")
+    for z in range(1, x+1):
+        print("*", end="")
+    print("\n")
+
+
