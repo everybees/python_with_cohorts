@@ -19,8 +19,7 @@ while(miles_driven != -1):
 
     gallons=input("Enter a gallons per trip: ")
     gallons=float(gallons)
-    # if(gallons ==-1):
-    #     print(0)
+   
     total_miles += miles_driven
     total_gallons += gallons
 
@@ -32,7 +31,7 @@ while(miles_driven != -1):
 
 total_miles_per_gallon = total_miles / total_gallons
 
-# total_miles_per_gallon=float( total_miles_per_gallon/tankful)
+
 print(f"the overall mile is: {total_miles_per_gallon:>.2f}")
 
 

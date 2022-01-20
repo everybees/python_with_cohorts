@@ -29,7 +29,7 @@ Counter=0
 #     for column in range(1):
 #         print(fruit[row][column],[row][column],sep=" ")
     
-
+print("s/n \t ")
 row=2
 while row >= 0:
     column = 2
