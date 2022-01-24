@@ -65,7 +65,7 @@ list_of_names = ["Hellen", "David", "Joe", "Rogen", "Motunrayo", "Johnson", "Ade
 
 
 class_a = ["Hellen", "David", "Joe", "Rogen", "Motunrayo"]
-class_b = ["Johnson", "Adeola", "Mofobi", "jim Doe"]
+class_b = ["Johnson", "Adeola Esther", "Mofobi", "jim Doe"]
 
 
 
