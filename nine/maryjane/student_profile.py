@@ -10,6 +10,9 @@ class Profile(object):
 
         self.password = password
 
+    def __int__(self):
+        pass
+
     #       getter and setter
 
     def get_first_name(self) -> str:
