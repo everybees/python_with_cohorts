@@ -3,6 +3,80 @@ grossaries= {'soup':9000, 'stew':4000}
 print('I sent you to get ' + str(grossaries.get('soup')) +' worth of soup ingredients' + 'and ' + str(grossaries.get('stew')) + ' worth of stew. Thank you. ')
 
 
+grossaries.setdefault('t-fare', '9000a')
+print(grossaries)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# grossaries.setdefault('fastFoods', '6000')
+#
+# print(grossaries)
 
 
 
