@@ -1,13 +1,29 @@
-total = 0 # sum of grades
+# Initialize total to zero
+# Initialize grade counter to zero
+# Input the first grade (possibly the sentinel)
+# While the user has not entered the sentinel
+# Add this grade into the running total
+# Add one to the grade counter
+# Input the next grade (possibly the sentinel)
+# If the counter is not equal to zero
+# Set the average to the total divided by the counter
+# Display the average
+# Else
+# Display “No grades were entered”
+
+total = 0
 grade_counter = 0
-grades = [98, 76, 71, 87, 83, 90, 57, 79, 82, 94]
 
-# A class of ten students took a quiz. Their grades (integers in the range 0 – 100) are
-# 98, 76, 71, 87, 83, 90, 57, 79, 82, 94. Determine the class average on the quiz.
+user_input = int(input('Enter a grade or -1 to exit'))
 
-for grade in grades:
-    total+=grade
-    grade_counter+=1
+while user_input != -1:
+    total += user_input
+    grade_counter+= 1
 
-average = total /grade_counter
-print(f'class average is {average}')    
+    user_input = int(input('Enter a grade or -1 to exit'))
+
+if(grade_counter != 0):
+        average = total/grade_counter
+        print(average)
+else:
+        print('No grades were entered')

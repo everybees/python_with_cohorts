@@ -12,8 +12,8 @@ for column in range(3):
         count+=1
         print(count, end=' ') 
         print(row,column, end=' ', sep=' ')
-        print(variable[column] [0], end=' ')
-        # print(variable[row][column], row, column)
+        # print(variable[column] [0], end=' ')
+        print(variable[row][column], row, column)
 
 print()
 
