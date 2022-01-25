@@ -7,5 +7,5 @@ if number == 1:
 # if number >= 2:
 while number >= 2:
     factorial *= number
-    number-= 1
+    number -= 1
 print('The factorial:', factorial)
