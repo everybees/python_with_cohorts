@@ -14,3 +14,8 @@ for i in range(10):
         first_total += 1
 
 print("First Player scores: ", first_total, "Second player scores: ", second_total)
+if first_total > second_total:
+    print("First player is the Winner")
+else:
+    print("Second player is the Winner")
+
