@@ -1,0 +1,6 @@
+digit = int (input("Enter a five digit integer: "))
+print(digit // 10000, end=" ")
+print((digit % 10000) //1000, end=" ")
+print((digit % 1000) //100, end=" ")
+print((digit % 100) //10, end=" ")
+print((digit % 10))
