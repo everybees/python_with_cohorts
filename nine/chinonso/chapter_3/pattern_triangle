@@ -1,0 +1,31 @@
+n =11
+for i in range(n):
+    for j in range(0,i+1):
+        print('*',end=' ')
+    for k in range(i,n):
+        print(' ',end=' ')
+    # print()
+    for k in range(i,n):
+        print('*',end=' ')
+   # print()
+    for j in range(0,i+1):
+        print(' ',end=' ')
+    # print()
+    for j in range(0,i+1):
+        print(' ',end=' ')
+    # print()
+    for k in range(i,n):
+        print('*',end=' ')
+    # print()
+    for k in range(i,n):
+        print(' ',end=' ')
+    # print()
+    for j in range(0,i+1):
+        print('*',end=' ')
+    print()
+
+
+
+
+
+

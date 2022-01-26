@@ -11,7 +11,6 @@ for count in range (10):
     if(player_one_input == left and player_two_input == left):
          print("Player Two Wins this round")
          player_two_score+=1 
-         
     if(player_one_input == left and player_two_input == right):
             print("Player One Wins this round") 
             player_one_score+=1
