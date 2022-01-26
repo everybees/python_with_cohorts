@@ -10,6 +10,23 @@ print(grossaries)
 
 
 
+print()
+print()
+print()
+
+
+
+
+
+
+message ='it is so great having you speak with us today'
+count ={}
+
+for character in message:
+    count.setdefault(character, 0)
+    count[character]=count[character]+1
+
+print(count)
 
 
 
