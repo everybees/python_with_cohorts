@@ -6,10 +6,7 @@ __pycache__/
 *$py.class
 .idea/
 .gitignore
-<<<<<<< HEAD
-=======
 
->>>>>>> 976684c64aa77cb1cba4182bc3a1e70965b8ca4e
 # C extensions
 *.so
 
