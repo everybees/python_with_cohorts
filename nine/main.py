@@ -1,7 +1,6 @@
 def main():
     print("Welcome To Semicolon")
 
-
 def leap_year(year):
     leap = False
     if year % 4 == 0 and (
@@ -16,7 +15,7 @@ def leap_year(year):
 
 if __name__ == "__main__":
     # main()
-
+    print("This is cohort 9!")
     year = int(input("Enter year: "))
     print(leap_year(year))
 

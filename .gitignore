@@ -1,12 +1,13 @@
-# Byte-compiled / optimized / DLL files
+          # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-.idea/
-.gitignore
 *$py.class
 .idea/
 .gitignore
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 # C extensions
 *.so
 
