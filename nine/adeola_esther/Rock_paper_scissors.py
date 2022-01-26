@@ -1,8 +1,8 @@
 rock='r'
 paper='p'
 scissors='s'
-user1=input("Enter a choice r, p, s:)  ")
-user2=input("Enter a choice r, p, s:) ")
+user1=input("Enter a choice r, p, s:  ")
+user2=input("Enter a choice r, p, s: ")
 player1=user1
 player2=user2
 
