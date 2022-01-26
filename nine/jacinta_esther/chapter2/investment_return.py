@@ -1,0 +1,6 @@
+amount = 1000 * ((1.0 + 0.07) ** 10)
+amount_1 = 1000 * ((1.0 + 0.07) ** 20)
+amount_2 = 1000 * ((1.0 + 0.07) ** 30)
+print("The investment return after 10 years is: ", amount)
+print("The investment return after 20 years is: ", amount_1)
+print("The investment return after 30 years is: ", amount_2)
