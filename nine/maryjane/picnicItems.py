@@ -15,19 +15,53 @@ print()
 print()
 
 
+message= 'I want to eat bread'
+dictionary={}
+
+for letters in message:
+    dictionary.setdefault(letters, 'okay')
+
+
+print(dictionary)
 
 
 
 
-message ='it is so great having you speak with us today'
-count ={}
 
-for character in message:
-    count.setdefault(character, 0)
-    count[character]=count[character]+1
 
-print(count)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# message ='it is so great having you speak with us today'
+# count ={}
+#
+# for character in message:
+#     count.setdefault(character, 0)
+#     count[character]=count[character]+1
+#
+# print(count)
+#
 
 
 
