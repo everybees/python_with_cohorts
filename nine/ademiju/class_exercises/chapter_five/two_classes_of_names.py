@@ -25,11 +25,11 @@ print()
 
 classes =[class_a,class_b]
 maximum_classes = 0
-for name in range(len(classes)):
-    for names in range(len(classes[name])):
-        if(len(classes[name][names]) > maximum_classes):
-            maximum_classes = len(classes[name][names])
-            maximum_classes_name = classes[name][names]
+for name_class_a in range(len(classes)):
+    for name_class_b in range(len(classes[name_class_a])):
+        if(len(classes[name_class_a][name_class_b]) > maximum_classes):
+            maximum_classes = len(classes[name_class_a][name_class_b])
+            maximum_classes_name = classes[name_class_a][name_class_b]
 if(class_a.__contains__(maximum_classes_name)):
              print(maximum_classes_name,"in class_ a is the longest name of the two classes with a length of",maximum_classes)
 else:
