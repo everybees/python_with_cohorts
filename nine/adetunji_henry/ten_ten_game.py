@@ -25,4 +25,3 @@ if player_1_score > player_2_score:
     print("Player One Wins")
 elif player_1_score < player_2_score:
     print("Player Two Wins")
-
