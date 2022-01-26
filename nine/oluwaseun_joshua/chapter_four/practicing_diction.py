@@ -1,7 +1,9 @@
 
 
+import array
 from operator import contains
 from os import name
+from typing import Dict
 
 
 data=[
@@ -586,6 +588,56 @@ print(get_event_url())
 # id_with_eight_digit()
 
 
+# sentence=["what", "a", "lovely", "day","!"]
+# sentence="what a lovely day!"
 
+# print(sentence[-1])
         
+# value=int(31**331)
+# print(value)
+# remainder=int(value % 20)
+# print(remainder)
 
+# i='welcome'
+# def welcome(i):
+#     i=i + ', Welcome to turing'
+#     return i
+# welcome('Developer')
+# print(i)
+# inputs=["nodejs","reactjs","vuejs"]
+# print(inputs)
+# for i in inputs:
+#     inputs.append(i.upper())
+# print(inputs)
+
+# z = set("abc")
+# z.add("san")
+# z.update(set(["p","q"]))
+# print(z)
+
+# def listSkills(val, list=[]):
+#     list.append(val)
+#     return list
+# list1 = listSkills("NodeJs")
+# list2=listSkills("java", [])
+# list3 = listSkills("ReactJs")
+# print("%s" % list1)
+# print("%s" % list2)
+# print("%s" %list3)
+
+
+# array=["welcome","To","Turing"]
+# print("-".join(array))
+
+# import re
+# result = re.findall("welcome to Turing","welcome",1)
+# print(result)
+
+# t= '%(a)s % (b)s %(c)s'
+# print(t % dict(a='welcome', b='to', c= 'Turing'))
+
+print('This code is not good.')
+print("No.It's still not good!")
+print('Maybe  try  one  more  time?')
+print('Almost there!' )
+print('Okay, this one looks fine. :)')
