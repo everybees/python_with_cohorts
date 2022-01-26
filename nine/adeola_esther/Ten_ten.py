@@ -9,8 +9,8 @@ scissors='s'
 player1_score=0
 player2_score=0
 for i in range(10):
-    user1=input("Enter a choice r, p, s:)  ")
-    user2=input("Enter a choice r, p, s:) " )
+    user1=input("Enter a choice r, p, s:  ")
+    user2=input("Enter a choice r, p, s: " )
 
     if user1 == "r" and user2 =="p":
       print("player1 wins")
