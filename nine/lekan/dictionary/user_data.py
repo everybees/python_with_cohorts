@@ -1,4 +1,6 @@
-data = [
+
+
+data= [
     {
         "login": "gentlesolo",
         "id": 5492998,
@@ -520,3 +522,30 @@ data = [
         "site_admin": False
     }
 ]
+
+
+def id_is_odd():
+    a_list = []
+    for dictionary in data:
+        if dictionary['id'] % 2 != 0:
+            a_list.append(dictionary['login'])
+    for i in a_list:
+        print(i)
+
+
+# id_is_odd()
+
+
+def id_has_eight():
+    b_list = []
+    for dictionary in data:
+        if str(dictionary['id']).__contains__("8"):
+            b_list.append(dictionary['login'])
+    for i in b_list:
+        print(i)
+
+
+
+
+
+id_has_eight()
