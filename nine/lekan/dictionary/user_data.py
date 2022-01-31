@@ -1,5 +1,4 @@
 
-
 data= [
     {
         "login": "gentlesolo",
@@ -59,7 +58,7 @@ data= [
         "events_url": "https://api.github.com/users/ehizman/events{/privacy}",
         "received_events_url": "https://api.github.com/users/ehizman/received_events",
         "type": "User",
-        "site_admin":False
+        "site_admin" :False
     },
     {
         "login": "Olaoluolowe",
@@ -533,7 +532,7 @@ def id_is_odd():
         print(i)
 
 
-# id_is_odd()
+id_is_odd()
 
 
 def id_has_eight():
@@ -543,9 +542,6 @@ def id_has_eight():
             b_list.append(dictionary['login'])
     for i in b_list:
         print(i)
-
-
-
 
 
 id_has_eight()
