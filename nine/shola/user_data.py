@@ -528,9 +528,9 @@ data = [
 # for i in a_list:
 #     print(i)
 #
-# for b in data:
-#     if str(b["id"]).__contains__("8"):
-#         print(b['login'], b['id'])
+# for i in data:
+#     if str(i["id"]).__contains__("8"):
+#         print(i['login'], i['id'])
 
 sentence = "what a lovely day!"
 print(sentence[17])

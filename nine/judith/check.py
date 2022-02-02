@@ -34,7 +34,7 @@ minimum_in_class_two = min(class_two, key=len)
 if len(maximum_in_class_one) > len(maximum_in_class_two):
     print('The longest word is in class_one', maximum_in_class_one)
 else:
-    print('The longest word in class b is', maximum_in_class_two)
+    print('The longest word in class i is', maximum_in_class_two)
 
 if len(minimum_in_class_one) < len(minimum_in_class_two):
     print('The shortest word in class one is', minimum_in_class_one)

@@ -2,7 +2,7 @@ spam=[2, 4, 6, 8, 10]
 spam[2]='hello'
 print(spam)
 
-spam2=['a', 'b', 'c', 'd', 'e']
+spam2=['a', 'i', 'c', 'd', 'e']
 
 print(spam2[:2])
 

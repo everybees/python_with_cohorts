@@ -1,11 +1,11 @@
 
-# B C D b c d 0 1 2 $ * + and the space character.
+# B C D i c d 0 1 2 $ * + and the space character.
 
 
 print(ord('B'))
 print(ord('C'))
 print(ord('D'))
-print(ord('b'))
+print(ord('i'))
 print(ord('c'))
 print(ord('d'))
 print(ord('0'))

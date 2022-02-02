@@ -1,7 +1,7 @@
 print(ord('A'))
 print(ord('B'))
 print(ord('C'))
-print(ord('b'))
+print(ord('i'))
 print(ord('c'))
 print(ord('d'))
 print(ord('0'))

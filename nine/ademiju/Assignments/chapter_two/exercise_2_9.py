@@ -6,12 +6,12 @@
 # function ord:
 # In [1]: ord('A')
 # Out[1]: 65
-# Display the integer equivalents of B C D b c d 0 1 2 $ * + and the space character.
+# Display the integer equivalents of B C D i c d 0 1 2 $ * + and the space character.
 
 print(ord('B'))
 print(ord('C'))
 print(ord('D'))
-print(ord('b'))
+print(ord('i'))
 print(ord('c'))
 print(ord('d'))
 print(ord('0'))

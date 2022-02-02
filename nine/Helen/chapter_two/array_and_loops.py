@@ -71,7 +71,7 @@ for i in range(len(class_a)):
                 value1 = class_b[i]
 
 print("class a longest name = ", value)
-print("class b longest name = ", value1)
+print("class i longest name = ", value1)
 
 
 
