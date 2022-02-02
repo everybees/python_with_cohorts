@@ -3,6 +3,7 @@ import json
 
 with open('nine/adeola_deji/chapter_four/user_data.json') as json_file:
     data = json.load(json_file)
+    print(data)
     # prints all the individual data
     # for i in data:
     #     print(i, end="")
