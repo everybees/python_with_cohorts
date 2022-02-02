@@ -6,7 +6,7 @@ name_stripped = name_with_white_space.lstrip()
 name.rstrip()
 name.strip()
 name_swapped = name.swapcase()
-list_of_names = ['Helen', 'Paul', 'Joe', 'Rogen', 'Motunrayo', 'Agbabiaka', 'Mbadiwe-Ozumba',]
+list_of_names = ['Helen', 'Paul', 'Joe', 'Rogen', 'Motunrayo', 'Agbabiaka', 'Mbadiwe-Ozumba', ]
 # print(list_of_names[2])
 # print(len(list_of_names[2]))
 # print(len(list_of_names))
@@ -23,11 +23,11 @@ for i in range(len(list_of_names)):
     if maximum < length:
         maximum = length
         value = list_of_names[i]
-        
+
 # print(value)
 # print(maximum)
 
 name_contains = list_of_names[i].__contains__('gen')
 print(name_contains)
 
-
+print(name[0])
