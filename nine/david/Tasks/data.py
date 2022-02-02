@@ -547,13 +547,6 @@ def id_with_eight():
         print("User with '8' in ids = ", logins)
 
 id_with_eight()
-    
-
-
-
-
-
-
 
 
 
