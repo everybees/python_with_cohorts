@@ -524,20 +524,35 @@ def odd_id():
     login_list = []
     for dictionaries in data:
         if dictionaries["id"] % 2 != 0:
-            login_list.append(dictionaries["login"])
+    #         login_list.append(dictionaries["login"])
+            print(f'{dictionaries["login"]:<18}{dictionaries["id"]:>10}')
+    
+    # for logins in login_list:
+    #      print(f'{logins:<20}{dictionaries["id"]:>10}')
 
-    for logins in login_list:
-        print(logins)
 
 
 def id_with_eight():
     login_list = []
     for dictionaries in data:
-        if dictionaries["id"].__contains__(8):
-            login_list.append(dictionaries["login"])
+        if str(dictionaries["id"]).__contains__("8"):
+            # login_list.append(dictionaries["login"])
+            print(f'{dictionaries["login"]:<18}{dictionaries["id"]:>10}')
 
-    for logins in login_list:
-        print(logins)
-
-
+    # for logins in login_list:
+    #       print(f'{logins:<18}{dictionaries["id"]:>10}')
+    
+    
         
+print("==============================")
+print("Logins With Odd Ids")
+print("==============================")
+print("Login\t\t\tIDs")
+odd_id()
+print("==============================")
+print("==============================")
+print("Logins Of Ids With Eight")
+print("==============================")
+print("Login\t\t\tIDs")
+id_with_eight()
+print("==============================")
