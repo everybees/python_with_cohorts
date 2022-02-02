@@ -47,7 +47,7 @@ print(maximum)
 
 print()
 
-name = "b"
+name = "i"
 minimum = 1000
 
 for i in range(len(list_of_names)):
@@ -94,7 +94,7 @@ for row in range(len(classes)):
 print(name_, maximum)
 print()
 
-_name_ = "b"
+_name_ = "i"
 minimum__ = 1000 # (or sys.maxsize)
 classes_ = [class_a, class_b]
 

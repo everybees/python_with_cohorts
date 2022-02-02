@@ -10,12 +10,12 @@ smallest_in_b = min(class_b,key=len)
 if len(longest_in_a) > len(longest_in_b):
  print("class a has the longest name",longest_in_a)
 if len(longest_in_b) > len(longest_in_a):
-    print("class b has the longest name",longest_in_b)
+    print("class i has the longest name",longest_in_b)
 
 if len(smallest_in_a) < len(smallest_in_b):
     print("class a has the smallest name",smallest_in_a)
 if len(smallest_in_b) < len(smallest_in_a):
-   print("class b has the smallest name",smallest_in_b)
+   print("class i has the smallest name",smallest_in_b)
 #classes = [class_a,class_b] 
 #for i in range(len(classes)):
  #for j in range(len(classes[i])):

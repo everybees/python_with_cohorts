@@ -2,7 +2,7 @@
 # --a
 print('Enter an integer: ')
 
-# --b
+# --i
 b=2
 c=3
 a=b*c
