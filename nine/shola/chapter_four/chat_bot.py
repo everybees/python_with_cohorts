@@ -14,7 +14,7 @@ def chatbot():
             "name": ["My name is Siri", "my name is Sam", "my name is Alexa", "my name is Sholz"],
             "love": ["Ja, ich liebe dich!", "Nein, ich liebe dich nicht", "Scheiße", "Love is wicked"],
             "eat": ["Yeah, baby!", "Nah 😢"],
-            "relationship": ["I'm currently single ", "I'm in a lovely relationship" " I'm married"],
+            "relationship": ["I'm currently single ", "I'm in a lovely relationship" " I only do mutual relationships"],
             "programs": ["I write python sometimes", "I'm learning java", "I write Javascript",
                          "I'm learning C#"],
             "country": ["I've been to Canada", "I'm from the UK", "Lovely Kenya", "Extremely beautiful Latvia"],
