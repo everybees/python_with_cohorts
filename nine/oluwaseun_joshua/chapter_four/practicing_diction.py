@@ -641,3 +641,9 @@ print("No.It's still not good!")
 print('Maybe  try  one  more  time?')
 print('Almost there!' )
 print('Okay, this one looks fine. :)')
+print('Okay, this one looks fine. :)')
+
+
+v="hello"
+v.capitalize()
+print(v)
