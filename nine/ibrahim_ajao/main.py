@@ -25,10 +25,10 @@ print("User One Score : ", user_one_score)
 print("User Two Score: ", user_two_score)
 
 if user_two_score > user_one_score:
-    print("User  Two Is The Winner !!!!")
-elif user_two_score == user_one_score:
-    print("Stalemate")
-else:
-    print("User One is the winner!!!!!")
+        print("User  Two Is The Winner !!!!")
+    elif user_two_score == user_one_score:
+        print("Stalemate")
+    else:
+         print("User One is the winner!!!!!")
 
 
