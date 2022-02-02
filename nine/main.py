@@ -22,6 +22,5 @@ if __name__ == "__main__":
 
 # from bees.ten_ten import tired_class
 
+
 # tired_class()
-
-
