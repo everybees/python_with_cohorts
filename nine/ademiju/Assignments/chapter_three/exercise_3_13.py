@@ -19,3 +19,6 @@ print(f'{number}! = {factorial}')
 
 # After trying larger value Python could sill produce their integer factorial only that it took several
 #  minutes before computing the results
+name = "Ade"
+num = name * 5
+print(num)

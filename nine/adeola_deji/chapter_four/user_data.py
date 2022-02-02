@@ -1,4 +1,7 @@
-data =  [
+from re import I
+
+
+data = [
     {
         "login": "gentlesolo",
         "id": 5492998,
@@ -520,39 +523,53 @@ data =  [
         "site_admin": False
     }
 ]
-def odd_id():
-    login_list = []
-    for dictionaries in data:
-        if dictionaries["id"] % 2 != 0:
-    #         login_list.append(dictionaries["login"])
-            print(f'{dictionaries["login"]:<18}{dictionaries["id"]:>10}')
-    
-    # for logins in login_list:
-    #      print(f'{logins:<20}{dictionaries["id"]:>10}')
+
+# for i in data:
+#    for key, value in i.items():
+      # print(key, "->", value)
+
+list_of_odd_id_users = []
+list_of_users_with_eight = []
+list_of_id_with_eight = []
+
+# def list_of_odd_users():
+#    for i in data:
+#       if i["id"] % 2 != 0:
+#          list_of_odd_id_users.append(i["login"])
+
+# def print_list():
+#    for i in list_of_odd_id_users:
+#       print(i)
+#    print("There are", len(list_of_odd_id_users), "with odd id")
+# print()
 
 
+# def find_users_with_an_eight():
+#    for i in data:
+#       if str(i["id"]).__contains__('8'):
+#          list_of_users_with_eight.append(i["login"])
 
-def id_with_eight():
-    login_list = []
-    for dictionaries in data:
-        if str(dictionaries["id"]).__contains__("8"):
-            # login_list.append(dictionaries["login"])
-            print(f'{dictionaries["login"]:<18}{dictionaries["id"]:>10}')
+# def print_list_of_users_with_eight():
+#    for i in list_of_users_with_eight:
+#       print(i)
+#    print("There are", len(list_of_users_with_eight), "with eight")
 
-    # for logins in login_list:
-    #       print(f'{logins:<18}{dictionaries["id"]:>10}')
-    
-    
-        
-print("==============================")
-print("Logins With Odd Ids")
-print("==============================")
-print("Login\t\t\tIDs")
-odd_id()
-print("==============================")
-print("==============================")
-print("Logins Of Ids With Eight")
-print("==============================")
-print("Login\t\t\tIDs")
-id_with_eight()
-print("==============================")
+# def check_user_oviep():
+#    for i in data:
+#       if i["login"] == "momah95":
+#          return i["followers_url"]
+
+
+# list_of_odd_users()
+# print_list()
+# find_users_with_an_eight()
+# print_list_of_users_with_eight()
+
+# print(check_user_oviep())
+
+# deleting a particular key
+# for i in data:
+#     for key in list(i.keys()):
+#         if key == "id":
+#             del i[key]
+# print(i)
