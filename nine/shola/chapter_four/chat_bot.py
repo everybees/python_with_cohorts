@@ -18,8 +18,8 @@ def chatbot():
             "programs": ["I write python sometimes", "I'm learning java", "I write Javascript",
                          "I'm learning C#"],
             "country": ["I've been to Canada", "I'm from the UK", "Lovely Kenya", "Extremely beautiful Latvia"],
-            "age": ["I am " + str(random.randrange(1, 100)) + " years old"],
-            "play": ["It depends tho", "Biko leave me alone joor", "Make I daze you?!"],
+            "old": ["I am " + str(random.randrange(1, 100)) + " years old"],
+            "play": ["I like playing Chess", "I play computer games", "I prefer reading"],
             "sleep": ["I rarely sleep", "I can't shutdown, I can only have a 10sec power nap daily"]
         }
 
