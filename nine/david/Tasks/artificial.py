@@ -1,7 +1,8 @@
 # create a value that holds 2 lists, those two lists should have dictionaries of several keys and values of different types
 
 
-Family = [
+
+family = [
     {
         "Principal" : "Mr Dele",
         "Occupation" : ["Principal", "Real Estate", "Pure Water Factory"],
@@ -25,3 +26,11 @@ Family = [
         "vehicle" : ["Camry", "Honda Rx350"]
     }
 ]
+# var=family[0]["Principal"]
+# print(var)
+
+for i in family:
+    # des=i["Principal"]
+    des = i[key]
+    print(des[i["value"]])
+ 

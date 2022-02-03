@@ -1,3 +1,4 @@
+
 data = {"colors": [
 	{
 		"color": "red",
@@ -181,13 +182,74 @@ data = {"colors": [
 }
 }
 
-the_key = "#f"
+def find_glazed():
+	var = data["example_two"]
 
-def find_some_keys():
-    for dictionaries in data:
-        print(dictionaries)
+	for i in var:
+		new = i["topping"]
+		for j in new:
+			if j["id"] == "5002":
+				print(j["type"])
 
-# find_some_keys()
+find_glazed()
 
-bool = 'a' < 'b'
-print(bool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def find_toppings():
+# 	var=data["example_one"]["topping"]
+
+# 	for i in var:
+# 		if i["id"]=="5007":
+# 			print(i["type"])
+		# print(i["type"])
+
+# find_toppings()
+
+# def find_barter():
+# 	var=data["example_four"]["items"]["item"]
+
+# 	for i in var:
+# 		pick = i["batters"]["batter"]
+# 		for keys in pick:
+# 			if keys["id"] == "1003":
+# 				print(keys["type"])
+
+# # find_barter()
+
+# def find_doughnut():
+# 	var = data["example_four"]["items"]["item"]
+
+# 	for i in var:
+# 		pick = i["type"]
+# 		print(pick)
+# # find_doughnut()
+
+# def find_regular():
+# 	var = data["example_two"]
+
+# 	for first in var:
+# 		i = first["batters"]["batter"]
+# 		for second in i:
+# 			if second["id"] == "1001":
+# 				print(second["type"])
+
+# find_regular()
+
+# def get_regular_value():
+# 	dew=data["example_two"]
+# 	for i in dew:
+# 		deq= i["batters"]
+# 		print(deq)
+
+# get_regular_value()
