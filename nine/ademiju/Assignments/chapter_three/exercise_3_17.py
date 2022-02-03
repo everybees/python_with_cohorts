@@ -4,7 +4,7 @@
 # print('*', end='')
 # which causes the asterisks to display side by side. [Hint: For the last two patterns, begin
 # each line with zero or more space characters.]
-# (a)         (b)               (c)               (d)
+# (a)         (i)               (c)               (d)
 # *           **********  **********               *
 # **          *********    *********              **
 # ***         ********      ********             ***

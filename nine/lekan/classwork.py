@@ -16,4 +16,4 @@ else:
 if len(minimum_in_class_a) < len(minimum_in_class_b):
     print('class a has the shortest name which is ', minimum_in_class_a)
 else:
-    print('class b has the shortest name which is', minimum_in_class_b)
+    print('class i has the shortest name which is', minimum_in_class_b)
