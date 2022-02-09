@@ -3,15 +3,8 @@
 # script to use a loop that in each iteration “picks off” one digit (left to right) using the //
 # and % operators, then displays that digit.
 
-number = int(input("Enter a five digit number"))
-for i in range(1):
-    a = number//10000
-    b = (number % 10000)//1000
-    c = (number % 1000)//100
-    d = (number % 100)//10
-    e = number % 10
-
-    new_number = a, b, c, d, e
-    print(a, b, c, d, e)
+number = (input("Enter a five digit number"))
+for i in (number):
+    print(i, end=" ")
 
 

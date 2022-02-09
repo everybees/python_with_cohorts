@@ -5,7 +5,6 @@ age = 47
 state_of_origin = "Lagos"
 hyphen = "-"
 
-# print(first_name[0].upper(),str(age[0]), sep="", end="")
 
 for i in range(0,len(first_name),2):
     print(first_name[i].upper(), age//10, sep="", end="")
@@ -23,7 +22,9 @@ for i in range(0, len(last_name)):
     else:
         print(last_name[i].upper(), sep="", end="-")
 
-
+        # J4H4N4E4
+        # LDOEGDOESDOE
+        # J-O-H-N-N-I-E-D-O-E
 
 
 

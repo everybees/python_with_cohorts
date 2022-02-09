@@ -14,6 +14,6 @@ for year in range (1, 11):
 
 
 a=b=7
-print('a=', a, '\nb =', b)
+print('a=', a, '\ni =', b)
 
 
