@@ -1,23 +1,19 @@
-def function_with_two_parameters(first_name, last_name):
-    print(first_name + " " + last_name)
+# import json
 
-def age(current_year, year_born):
-    age = current_year - year_born
-    print(age)
+# data1 = open("C:/Users/US CHIPS/python_with_cohorts/nine/david/Tasks/data1.json")
 
-def square(number):
-    result = number * number
-    print(result)
+# data = json.load(data1)
 
-def user(first_name):
-    print(first_name + "David")
+# print(data["colors"])
+
+# hello_str = "Hello World"
+# print(hello_str[0: 11: 2])
 
 
-def addition(no1, no2, no3, no4, no5):
-    return no1 + no2 + no3 + no4 + no5
+# for i in range(5):
+#     print(i)
 
-def freeflow(a_string = " ", an_int = 0, a_float = 0.0, a_list = [], a_dict = {}):
-    print(a_list, a_string)
 
-freeflow("Welcome", [2, 6, 7, 100])
-
+a_str = "hello"
+a_str[1] = "r"
+print(a_str)

@@ -26,11 +26,10 @@ family = [
         "vehicle" : ["Camry", "Honda Rx350"]
     }
 ]
-# var=family[0]["Principal"]
-# print(var)
 
-for i in family:
-    # des=i["Principal"]
-    des = i[key]
-    print(des[i["value"]])
+def find():
+    for lists in family:
+        # lists = ["principal"]
+        print(lists["Principal"])
+find()
  
