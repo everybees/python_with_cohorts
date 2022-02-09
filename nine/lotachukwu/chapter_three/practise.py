@@ -1,5 +1,5 @@
 a = b = 7
-print('a =', a, 'b =', b)
+print('a =', a, 'i =', b)
 
 for row in range(10):
     for column in range(10):
