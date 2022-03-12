@@ -4,7 +4,6 @@ def calculate_products(myList):
         product *= value
     return product
 
-
 number_list = []
 count = int(input('Enter the number of input: '))
 for i in range(0, count):
